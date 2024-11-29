@@ -3,10 +3,10 @@ name: Deploy to AWS Elastic Beanstalk
 on:
   push:
     branches:
-      - master  
+      - main  
 
 jobs:
-  deploy:
+  deploy
     runs-on: ubuntu-latest
     
     steps:
